@@ -566,6 +566,57 @@
     <div class="col-lg-8">
       
 
+
+
+
+
+  
+  
+  
+  
+
+  
+  
+  
+  
+
+  
+  
+  
+  
+
+  
+  
+  
+  
+
+  
+  
+  
+  
+
+  
+  
+  
+  
+
+
+
+
+
+
+  
+
+
+  
+
+
+  
+
+
+  
+
+
 <div class="embed-responsive embed-responsive-4by3 shadow-light">
   <div class="embed-responsive-item" id="map"></div>
 </div>
@@ -577,10 +628,12 @@
   mapboxgl.accessToken = 'pk.eyJ1IjoidG9kZHBpcGUiLCJhIjoiY2plaXhnZmwyMDBpYjMzbWRmMG9yMGk0YyJ9.Oo0PhQAJ57aN63kc73EXVA';
   var map = new mapboxgl.Map({
     container: 'map',
-    center: [` -117.7 `, ` 33.2 `],
-    zoom: 7,
     style: 'mapbox:\/\/styles\/toddpipe\/cjvplbawy057w1cmmd5k466s1'
   });
+  var sw = new mapboxgl.LngLat(` -118.4901151 `,` 34.3185211 `)
+  var ne = new mapboxgl.LngLat(` -117.2046656 `,` 32.766049 `)
+  var bounds = new mapboxgl.LngLatBounds(sw, ne);
+  map.fitBounds(bounds, {padding: 30});
   map.addControl(new mapboxgl.NavigationControl());
   geojson.features.forEach(function(marker) {
     var coordinates = marker.geometry.coordinates.slice();
