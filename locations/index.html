@@ -15,12 +15,17 @@
         }
 
         .marker {
-            background-image: url('/img/marker.png');
+            background-image: url("/img/marker.png");
             background-size: cover;
-            width: 50px;
-            height: 50px;
-            border-radius: 50%;
+            width: 42px;
+            height: 42px;
+            margin-top: calc(42px/-2);
             cursor: pointer;
+            border: 2px solid #0072ce;
+            border-radius: 50%;
+            -webkit-box-shadow: 2px 2px 5px 1px rgba(0,0,0,0.2);
+            -moz-box-shadow: 2px 2px 5px 1px rgba(0,0,0,0.2);
+            box-shadow: 2px 2px 5px 1px rgba(0,0,0,0.2);
         }
 
         #TableOfContents ul {
@@ -623,17 +628,17 @@
 <script src="https://api.mapbox.com/mapbox-gl-js/v1.9.1/mapbox-gl.js"></script>
 <link href="https://api.mapbox.com/mapbox-gl-js/v1.9.1/mapbox-gl.css" rel="stylesheet" />
 <script>
-  var features = `{"type": "FeatureCollection", "features": [{"type": "Feature","properties": {"title": "Anaheim", "address": "1005 N. Edward Ct.", "city": "Anaheim", "state": "CA", "zipcode": "92806", "link": "https://toddpipe.github.io/locations/anaheim/"}, "geometry": {"type": "Point","coordinates": [ -117.867489 ,  33.8471374 ]}},{"type": "Feature","properties": {"title": "Hawthorne", "address": "4828 W. 145th St.", "city": "Hawthorne", "state": "CA", "zipcode": "90251", "link": "https://toddpipe.github.io/locations/hawthorne/"}, "geometry": {"type": "Point","coordinates": [ -118.3645455 ,  33.8990658 ]}},{"type": "Feature","properties": {"title": "Riverside", "address": "1886 Spruce St.", "city": "Riverside", "state": "CA", "zipcode": "92507", "link": "https://toddpipe.github.io/locations/riverside/"}, "geometry": {"type": "Point","coordinates": [ -117.3547468 ,  33.9888523 ]}},{"type": "Feature","properties": {"title": "San Diego", "address": "1004 Cudahy Pl.", "city": "San Diego", "state": "CA", "zipcode": "92110", "link": "https://toddpipe.github.io/locations/san-diego/"}, "geometry": {"type": "Point","coordinates": [ -117.2046656 ,  32.766049 ]}},{"type": "Feature","properties": {"title": "Sylmar", "address": "16348 Foothill Blvd.", "city": "Sylmar", "state": "CA", "zipcode": "91342", "link": "https://toddpipe.github.io/locations/sylmar/"}, "geometry": {"type": "Point","coordinates": [ -118.4901151 ,  34.3185211 ]}},{"type": "Feature","properties": {"title": "West LA", "address": "2311 Purdue Ave.", "city": "Los Angeles", "state": "CA", "zipcode": "90064", "link": "https://toddpipe.github.io/locations/west-la/"}, "geometry": {"type": "Point","coordinates": [ -118.4441002 ,  34.0351829 ]}}]}`;
+  var features = `{"type": "FeatureCollection", "features": [{"type": "Feature","properties": {"title": "Anaheim", "address": "1005 N. Edward Ct.", "city": "Anaheim", "state": "CA", "zipcode": "92806", "link": "https://toddpipe.github.io/locations/anaheim/"}, "geometry": {"type": "Point","coordinates": [ -117.8650763 ,  33.8471528 ]}},{"type": "Feature","properties": {"title": "Hawthorne", "address": "4828 W. 145th St.", "city": "Hawthorne", "state": "CA", "zipcode": "90251", "link": "https://toddpipe.github.io/locations/hawthorne/"}, "geometry": {"type": "Point","coordinates": [ -118.3625202 ,  33.8991287 ]}},{"type": "Feature","properties": {"title": "Riverside", "address": "1886 Spruce St.", "city": "Riverside", "state": "CA", "zipcode": "92507", "link": "https://toddpipe.github.io/locations/riverside/"}, "geometry": {"type": "Point","coordinates": [ -117.3529678 ,  33.9887124 ]}},{"type": "Feature","properties": {"title": "San Diego", "address": "1004 Cudahy Pl.", "city": "San Diego", "state": "CA", "zipcode": "92110", "link": "https://toddpipe.github.io/locations/san-diego/"}, "geometry": {"type": "Point","coordinates": [ -117.2028884 ,  32.766097 ]}},{"type": "Feature","properties": {"title": "Sylmar", "address": "16348 Foothill Blvd.", "city": "Sylmar", "state": "CA", "zipcode": "91342", "link": "https://toddpipe.github.io/locations/sylmar/"}, "geometry": {"type": "Point","coordinates": [ -118.487543 ,  34.3190604 ]}},{"type": "Feature","properties": {"title": "West LA", "address": "2311 Purdue Ave.", "city": "Los Angeles", "state": "CA", "zipcode": "90064", "link": "https://toddpipe.github.io/locations/west-la/"}, "geometry": {"type": "Point","coordinates": [ -118.4421506 ,  34.0351946 ]}}]}`;
   var geojson = JSON.parse(features)
   mapboxgl.accessToken = 'pk.eyJ1IjoidG9kZHBpcGUiLCJhIjoiY2plaXhnZmwyMDBpYjMzbWRmMG9yMGk0YyJ9.Oo0PhQAJ57aN63kc73EXVA';
   var map = new mapboxgl.Map({
     container: 'map',
     style: 'mapbox:\/\/styles\/toddpipe\/cjvplbawy057w1cmmd5k466s1'
   });
-  var sw = new mapboxgl.LngLat(` -118.4901151 `,` 34.3185211 `)
-  var ne = new mapboxgl.LngLat(` -117.2046656 `,` 32.766049 `)
+  var sw = new mapboxgl.LngLat(` -118.487543 `,` 34.3190604 `)
+  var ne = new mapboxgl.LngLat(` -117.2028884 `,` 32.766097 `)
   var bounds = new mapboxgl.LngLatBounds(sw, ne);
-  map.fitBounds(bounds, {padding: 30});
+  map.fitBounds(bounds, {padding: 50});
   map.addControl(new mapboxgl.NavigationControl());
   geojson.features.forEach(function(marker) {
     var coordinates = marker.geometry.coordinates.slice();
