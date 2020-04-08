@@ -41,6 +41,12 @@
 
     </style>
 <body class="bg-light">
+<div class="row alert alert-warning fade show text-center mb-0" role="alert">
+  <div class="container">
+    <small>Read more about Todd Pipe &amp; Supply’s response to COVID-19. <a href="/covid-19" class="alert-link">Click here.</a></small>
+  </div>
+</div>
+
 
 <nav class="navbar navbar-expand-lg navbar-light bg-white shadow-light">
       <div class="container">
@@ -468,67 +474,38 @@
 <div class="container mt-5">
   <div class="card shadow-light">
     <div class="card-body">
-      <h2 class="text-center text-primary">Send Us a Message</h2>
-      <form action="#">
-
+      <form action="https://formtoemail.com/user_forms.php" method="POST">
+        <input type="hidden" name="user_id" value="OPVFNTC6M691295LC1DS">
+        <input type="hidden" name="form_id" value="7">
         <div class="form-row">
           <div class="form-group col-md-6">
-            <label class="label" for="FirstName">First Name</label>
-            <input type="text" class="form-control" id="FirstName" name="FirstName" placeholder="Joe">
+            <label class="label" for="FirstName">First Name <span class="text-danger"><sup>*</sup></span></label>
+            <input type="text" class="form-control" id="FirstName" name="FirstName" placeholder="Joe" required>
           </div>
           <div class="form-group col-md-6">
-            <label for="LastName">Last Name</label>
-            <input type="text" class="form-control" id="LastName" name="LastName" placeholder="Plumber">
+            <label for="LastName">Last Name <span class="text-danger"><sup>*</sup></span></label>
+            <input type="text" class="form-control" id="LastName" name="LastName" placeholder="Plumber" required>
           </div>
         </div>
 
         <div class="form-row">
-          <div class="form-group col-lg-4">
-            <label class="label" for="Company">Company Name</label>
-            <input type="text" class="form-control" id="Company" name="Company" placeholder="ABC Corporation">
+          <div class="form-group col-md-6">
+            <label class="label" for="Email">Email <span class="text-danger"><sup>*</sup></span></label>
+            <input type="text" class="form-control" id="Email" name="Email" placeholder="joe@domain.com" required>
           </div>
-          <div class="form-group col-md-6 col-lg-5">
-            <label class="label" for="Email">Email </label>
-            <input type="text" class="form-control" id="Email" name="Email" placeholder="joe@domain.com">
-          </div>
-          <div class="form-group col-md-6 col-lg-3">
+          <div class="form-group col-md-6">
             <label class="label" for="Phone">Phone </label>
             <input type="text" class="form-control" id="Phone" name="Phone" placeholder="(714) 867-5309">
           </div>
         </div>
 
         <div class="form-row">
-          <div class="form-group col-md-6 col-lg-4">
-            <label for="Branch">Nearest Branch</label>
-            <select name="Branch" id="Branch" class="form-control">
-              <option selected>Select...</option>
-              <option value="Anaheim">Anaheim</option>
-              <option value="Hawthorne">Hawthorne</option>
-              <option value="Riverside">Riverside</option>
-              <option value="San Diego">San Diego</option>
-              <option value="Sylmar">Sylmar</option>
-              <option value="West LA">West LA</option>
-            </select>
-          </div>
-          <div class="form-group col-md-6 col-lg-4">
-            <label for="CustomerType">I am a...</label>
-            <select name="CustomerType" id="CustomerType" class="form-control">
-              <option selected>Select...</option>
-              <option value="Licensed Plumber">Licensed Plumber</option>
-              <option value="General Contractor">General Contractor</option>
-              <option value="Homeowner">Homeowner</option>
-              <option value="Other">Other</option>
-            </select>
-          </div>
-          <div class="form-group col-lg-4">
-            <label for="Referral">How did you hear about us?</label>
-            <select name="Referral" id="Referral" class="form-control">
-              <option selected>Select...</option>
-              <option value="Referral">Referral</option>
-              <option value="Search Engine">Search Engine</option>
-              <option value="Yellow Pages">Yellow Pages</option>
-              <option value="Advertisement">Advertisement</option>
-              <option value="Other">Other</option>
+          <div class="form-group col-12">
+            <label for="Request-Type">Request- Type <span class="text-danger"><sup>*</sup></span></label>
+            <select name="Request-Type" id="Request-Type" class="form-control">
+              <option value="opt-out">Opt-out of data collection</option>
+              <option value="export-personal-data">Export personal data</option>
+              <option value="delete-personal-data">Delete personal data</option>
             </select>
           </div>
         </div>
@@ -537,9 +514,12 @@
           <label for="Message">Message</label>
           <textarea class="form-control" id="Message" name="Message" rows="3"></textarea>
         </div>
+
         <div class="form-row">
-          <button class="btn btn-primary" type="submit">Send Message</button>
+          <button class="btn btn-primary" type="submit">Submit Request</button>
         </div>
+
+        <p class="text-center">Fields marked  <span class="text-danger"><sup>*</sup></span> are required.</p>
 
       </form>
     </div>
