@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Locations on Todd Pipe &amp; Supply</title>
+    <link>https://www.toddpipe.com/locations/</link>
+    <description>Recent content in Locations on Todd Pipe &amp; Supply</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Todd Pipe &amp; Supply, LLC. All rights reserved.</copyright>
+    <lastBuildDate>Tue, 31 Mar 2020 19:01:57 -0700</lastBuildDate>
+    
+	<atom:link href="https://www.toddpipe.com/locations/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Sylmar</title>
+      <link>https://www.toddpipe.com/locations/sylmar/</link>
+      <pubDate>Thu, 02 Apr 2020 08:42:07 -0700</pubDate>
+      
+      <guid>https://www.toddpipe.com/locations/sylmar/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>West LA</title>
+      <link>https://www.toddpipe.com/locations/west-la/</link>
+      <pubDate>Thu, 02 Apr 2020 08:41:44 -0700</pubDate>
+      
+      <guid>https://www.toddpipe.com/locations/west-la/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Riverside</title>
+      <link>https://www.toddpipe.com/locations/riverside/</link>
+      <pubDate>Wed, 01 Apr 2020 19:25:58 -0700</pubDate>
+      
+      <guid>https://www.toddpipe.com/locations/riverside/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>San Diego</title>
+      <link>https://www.toddpipe.com/locations/san-diego/</link>
+      <pubDate>Wed, 01 Apr 2020 19:23:52 -0700</pubDate>
+      
+      <guid>https://www.toddpipe.com/locations/san-diego/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Hawthorne</title>
+      <link>https://www.toddpipe.com/locations/hawthorne/</link>
+      <pubDate>Wed, 01 Apr 2020 10:07:38 -0700</pubDate>
+      
+      <guid>https://www.toddpipe.com/locations/hawthorne/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Anaheim</title>
+      <link>https://www.toddpipe.com/locations/anaheim/</link>
+      <pubDate>Tue, 31 Mar 2020 19:34:44 -0700</pubDate>
+      
+      <guid>https://www.toddpipe.com/locations/anaheim/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
