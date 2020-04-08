@@ -46,12 +46,6 @@
 
     </style>
 <body class="bg-light">
-<div class="row alert alert-warning fade show text-center mb-0" role="alert">
-  <div class="container">
-    <small>Read more about Todd Pipe &amp; Supply’s response to COVID-19. <a href="/covid-19" class="alert-link">Click here.</a></small>
-  </div>
-</div>
-
 
 <nav class="navbar navbar-expand-lg navbar-light bg-white shadow-light">
       <div class="container">
@@ -476,7 +470,7 @@
     
     <div class="col-12 col-md-6 col-lg-4 d-flex mb-3 mb-lg-7">
       <div class="card mb-6 mb-lg-0 shadow-light-lg lift lift-lg">
-        <a class="card-body" href="https://toddpipe.github.io/company/legal/prop65/">
+        <a class="card-body" href="https://toddpipe.github.io/prop65/">
           <div class="icon text-primary mb-3 text-center">
             <svg
   width="24"
@@ -496,7 +490,7 @@
             <small></small>
           </p>
         </a>
-        <a class="card-meta mt-auto" href="https://toddpipe.github.io/company/legal/prop65/">
+        <a class="card-meta mt-auto" href="https://toddpipe.github.io/prop65/">
           <span class="btn btn-sm btn-secondary-soft btn-block">View</span>
         </a>
       </div>
@@ -504,7 +498,7 @@
     
     <div class="col-12 col-md-6 col-lg-4 d-flex mb-3 mb-lg-7">
       <div class="card mb-6 mb-lg-0 shadow-light-lg lift lift-lg">
-        <a class="card-body" href="https://toddpipe.github.io/company/legal/do-not-sell-my-information/">
+        <a class="card-body" href="https://toddpipe.github.io/do-not-sell-my-information/">
           <div class="icon text-primary mb-3 text-center">
             <svg
   width="24"
@@ -524,7 +518,7 @@
             <small>California Consumer Privacy Act</small>
           </p>
         </a>
-        <a class="card-meta mt-auto" href="https://toddpipe.github.io/company/legal/do-not-sell-my-information/">
+        <a class="card-meta mt-auto" href="https://toddpipe.github.io/do-not-sell-my-information/">
           <span class="btn btn-sm btn-secondary-soft btn-block">View</span>
         </a>
       </div>
@@ -560,7 +554,7 @@
     
     <div class="col-12 col-md-6 col-lg-4 d-flex mb-3 mb-lg-7">
       <div class="card mb-6 mb-lg-0 shadow-light-lg lift lift-lg">
-        <a class="card-body" href="https://toddpipe.github.io/company/legal/terms/">
+        <a class="card-body" href="https://toddpipe.github.io/terms/">
           <div class="icon text-primary mb-3 text-center">
             <svg
   width="24"
@@ -580,7 +574,7 @@
             <small></small>
           </p>
         </a>
-        <a class="card-meta mt-auto" href="https://toddpipe.github.io/company/legal/terms/">
+        <a class="card-meta mt-auto" href="https://toddpipe.github.io/terms/">
           <span class="btn btn-sm btn-secondary-soft btn-block">View</span>
         </a>
       </div>
@@ -777,7 +771,7 @@
             <ul class="list-unstyled text-muted mb-6 mb-md-8 mb-lg-0">
               
                 <li>
-                  <a href="/company/about/" class="text-reset">About</a>
+                  <a href="/about/" class="text-reset">About</a>
                 </li>
               
                 <li>
@@ -785,11 +779,11 @@
                 </li>
               
                 <li>
-                  <a href="/company/contact/" class="text-reset">Contact</a>
+                  <a href="/contact/" class="text-reset">Contact</a>
                 </li>
               
                 <li>
-                  <a href="/company/employees/" class="text-reset">Employees</a>
+                  <a href="/about/our-employees/" class="text-reset">Employees</a>
                 </li>
               
                 <li>
@@ -802,11 +796,11 @@
         <ul class="nav justify-content-center list-unstyled text-muted">
           
             <li class="nav-item">
-              <a href="/company/legal/prop65/" class="nav-link">California Prop 65</a>
+              <a href="/prop65/" class="nav-link">California Prop 65</a>
             </li>
           
             <li class="nav-item">
-              <a href="/company/legal/do-not-sell-my-information/" class="nav-link">Do Not Sell My Information</a>
+              <a href="/do-not-sell-my-information/" class="nav-link">Do Not Sell My Information</a>
             </li>
           
             <li class="nav-item">
@@ -814,7 +808,7 @@
             </li>
           
             <li class="nav-item">
-              <a href="/company/legal/terms/" class="nav-link">Terms and Conditions</a>
+              <a href="/terms/" class="nav-link">Terms and Conditions</a>
             </li>
           
         </ul>
@@ -829,5 +823,21 @@
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
 <script src="/js/theme.min.js"></script>
+<script>
+  function toggleDropdown (e) {
+    const _d = $(e.target).closest('.dropdown'),
+      _m = $('.dropdown-menu', _d);
+    setTimeout(function(){
+      const shouldOpen = e.type !== 'click' && _d.is(':hover');
+      _m.toggleClass('show', shouldOpen);
+      _d.toggleClass('show', shouldOpen);
+      $('[data-toggle="dropdown"]', _d).attr('aria-expanded', shouldOpen);
+    }, e.type === 'mouseleave' ? 0 : 0);
+  }
+
+  $('body')
+    .on('mouseenter mouseleave','.dropdown',toggleDropdown)
+    .on('click', '.dropdown-menu a', toggleDropdown);
+</script>
 </body>
 </html>
