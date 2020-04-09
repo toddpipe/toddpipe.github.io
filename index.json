@@ -1,0 +1,38 @@
+{
+    "data" : 
+[
+    
+    {
+    "name": "Manufacturers",
+    "permalink" : "https://toddpipe.github.io/manufacturers/"
+}
+
+    
+    , {
+    "name": "Resources",
+    "permalink" : "https://toddpipe.github.io/resources/"
+}
+
+    
+    , {
+    "name": "Company",
+    "permalink" : "https://toddpipe.github.io/company/"
+}
+
+    
+    , {
+    "name": "Posts",
+    "permalink" : "https://toddpipe.github.io/posts/"
+}
+
+    
+    , {
+    "title": "Locations",
+    "permalink": "https://toddpipe.github.io/locations/",
+    "address": "<no value>"
+}
+
+    
+]
+
+}
