@@ -2,7 +2,13 @@
     "data" :  {
     "title": "Hawthorne",
     "permalink": "https://toddpipe.github.io/locations/hawthorne/",
-    "address": "4828 W. 145th St."
+    "subtitle": "",
+    "address": "4828 W. 145th St.",
+    "city": "Hawthorne",
+    "state": "CA",
+    "zipcode": "90251",
+    "phone": "(310) 349-5100",
+    "fax": "(310) 349-5110"
 }
  
 }

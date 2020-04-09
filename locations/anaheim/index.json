@@ -2,7 +2,13 @@
     "data" :  {
     "title": "Anaheim",
     "permalink": "https://toddpipe.github.io/locations/anaheim/",
-    "address": "1005 N. Edward Ct."
+    "subtitle": "Serving Orange County since 2010",
+    "address": "1005 N. Edward Ct.",
+    "city": "Anaheim",
+    "state": "CA",
+    "zipcode": "92806",
+    "phone": "(714) 688-2560",
+    "fax": "(714) 688-2570"
 }
  
 }

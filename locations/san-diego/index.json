@@ -2,7 +2,13 @@
     "data" :  {
     "title": "San Diego",
     "permalink": "https://toddpipe.github.io/locations/san-diego/",
-    "address": "1004 Cudahy Pl."
+    "subtitle": "Serving San Diego since 2011",
+    "address": "1004 Cudahy Pl.",
+    "city": "San Diego",
+    "state": "CA",
+    "zipcode": "92110",
+    "phone": "(619) 275-8700",
+    "fax": "(619) 275-8710"
 }
  
 }

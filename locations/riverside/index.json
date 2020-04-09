@@ -2,7 +2,13 @@
     "data" :  {
     "title": "Riverside",
     "permalink": "https://toddpipe.github.io/locations/riverside/",
-    "address": "1886 Spruce St."
+    "subtitle": "",
+    "address": "1886 Spruce St.",
+    "city": "Riverside",
+    "state": "CA",
+    "zipcode": "92507",
+    "phone": "(951) 384-4800",
+    "fax": "(951) 384-4810"
 }
  
 }

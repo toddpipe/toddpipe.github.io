@@ -29,7 +29,13 @@
     , {
     "title": "Locations",
     "permalink": "https://toddpipe.github.io/locations/",
-    "address": "<no value>"
+    "subtitle": "Serving Southern California",
+    "address": "<no value>",
+    "city": "<no value>",
+    "state": "<no value>",
+    "zipcode": "<no value>",
+    "phone": "<no value>",
+    "fax": "<no value>"
 }
 
     

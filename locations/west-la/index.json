@@ -2,7 +2,13 @@
     "data" :  {
     "title": "West LA",
     "permalink": "https://toddpipe.github.io/locations/west-la/",
-    "address": "2311 Purdue Ave."
+    "subtitle": "",
+    "address": "2311 Purdue Ave.",
+    "city": "Los Angeles",
+    "state": "CA",
+    "zipcode": "90064",
+    "phone": "(424) 276-4200",
+    "fax": "(424) 276-4210"
 }
  
 }

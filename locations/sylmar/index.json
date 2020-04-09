@@ -2,7 +2,13 @@
     "data" :  {
     "title": "Sylmar",
     "permalink": "https://toddpipe.github.io/locations/sylmar/",
-    "address": "16348 Foothill Blvd."
+    "subtitle": "",
+    "address": "16348 Foothill Blvd.",
+    "city": "Sylmar",
+    "state": "CA",
+    "zipcode": "91342",
+    "phone": "(818) 403-2000",
+    "fax": "(818) 403-2010"
 }
  
 }

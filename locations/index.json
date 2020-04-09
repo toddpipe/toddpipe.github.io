@@ -5,42 +5,78 @@
     {
     "title": "Sylmar",
     "permalink": "https://toddpipe.github.io/locations/sylmar/",
-    "address": "16348 Foothill Blvd."
+    "subtitle": "",
+    "address": "16348 Foothill Blvd.",
+    "city": "Sylmar",
+    "state": "CA",
+    "zipcode": "91342",
+    "phone": "(818) 403-2000",
+    "fax": "(818) 403-2010"
 }
 
     
     , {
     "title": "West LA",
     "permalink": "https://toddpipe.github.io/locations/west-la/",
-    "address": "2311 Purdue Ave."
+    "subtitle": "",
+    "address": "2311 Purdue Ave.",
+    "city": "Los Angeles",
+    "state": "CA",
+    "zipcode": "90064",
+    "phone": "(424) 276-4200",
+    "fax": "(424) 276-4210"
 }
 
     
     , {
     "title": "Riverside",
     "permalink": "https://toddpipe.github.io/locations/riverside/",
-    "address": "1886 Spruce St."
+    "subtitle": "",
+    "address": "1886 Spruce St.",
+    "city": "Riverside",
+    "state": "CA",
+    "zipcode": "92507",
+    "phone": "(951) 384-4800",
+    "fax": "(951) 384-4810"
 }
 
     
     , {
     "title": "San Diego",
     "permalink": "https://toddpipe.github.io/locations/san-diego/",
-    "address": "1004 Cudahy Pl."
+    "subtitle": "Serving San Diego since 2011",
+    "address": "1004 Cudahy Pl.",
+    "city": "San Diego",
+    "state": "CA",
+    "zipcode": "92110",
+    "phone": "(619) 275-8700",
+    "fax": "(619) 275-8710"
 }
 
     
     , {
     "title": "Hawthorne",
     "permalink": "https://toddpipe.github.io/locations/hawthorne/",
-    "address": "4828 W. 145th St."
+    "subtitle": "",
+    "address": "4828 W. 145th St.",
+    "city": "Hawthorne",
+    "state": "CA",
+    "zipcode": "90251",
+    "phone": "(310) 349-5100",
+    "fax": "(310) 349-5110"
 }
 
     
     , {
     "title": "Anaheim",
     "permalink": "https://toddpipe.github.io/locations/anaheim/",
-    "address": "1005 N. Edward Ct."
+    "subtitle": "Serving Orange County since 2010",
+    "address": "1005 N. Edward Ct.",
+    "city": "Anaheim",
+    "state": "CA",
+    "zipcode": "92806",
+    "phone": "(714) 688-2560",
+    "fax": "(714) 688-2570"
 }
 
     
