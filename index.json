@@ -3,6 +3,12 @@
 [
     
     {
+    "name": "Blog",
+    "permalink" : "https://toddpipe.github.io/posts/"
+}
+
+    
+    , {
     "name": "Manufacturers",
     "permalink" : "https://toddpipe.github.io/manufacturers/"
 }
@@ -17,12 +23,6 @@
     , {
     "name": "Company",
     "permalink" : "https://toddpipe.github.io/company/"
-}
-
-    
-    , {
-    "name": "Posts",
-    "permalink" : "https://toddpipe.github.io/posts/"
 }
 
     

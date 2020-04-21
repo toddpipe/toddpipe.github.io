@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts on Todd Pipe &amp; Supply</title>
+    <title>Blog on Todd Pipe &amp; Supply</title>
     <link>https://toddpipe.github.io/posts/</link>
-    <description>Recent content in Posts on Todd Pipe &amp; Supply</description>
+    <description>Recent content in Blog on Todd Pipe &amp; Supply</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Todd Pipe &amp; Supply, LLC. All rights reserved.</copyright>
-    <lastBuildDate>Wed, 01 Apr 2020 14:28:13 -0700</lastBuildDate>
+    <lastBuildDate>Tue, 21 Apr 2020 10:51:41 -0700</lastBuildDate>
     
 	<atom:link href="https://toddpipe.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
     

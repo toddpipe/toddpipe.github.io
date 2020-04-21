@@ -3,12 +3,17 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://toddpipe.github.io/resources/price-updates/</loc>
-    <lastmod>2020-04-03T18:19:11-07:00</lastmod>
+    <loc>https://toddpipe.github.io/posts/</loc>
+    <lastmod>2020-04-21T10:51:41-07:00</lastmod>
   </url>
   
   <url>
     <loc>https://toddpipe.github.io/</loc>
+    <lastmod>2020-04-21T10:51:41-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://toddpipe.github.io/resources/price-updates/</loc>
     <lastmod>2020-04-03T18:19:11-07:00</lastmod>
   </url>
   
@@ -104,11 +109,6 @@
   
   <url>
     <loc>https://toddpipe.github.io/posts/covid-19/</loc>
-    <lastmod>2020-04-01T14:28:13-07:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://toddpipe.github.io/posts/</loc>
     <lastmod>2020-04-01T14:28:13-07:00</lastmod>
   </url>
   
