@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Blog on Todd Pipe &amp; Supply</title>
-    <link>https://toddpipe.github.io/posts/</link>
+    <link>https://toddpipe.netlify.app/posts/</link>
     <description>Recent content in Blog on Todd Pipe &amp; Supply</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Todd Pipe &amp; Supply, LLC. All rights reserved.</copyright>
     <lastBuildDate>Tue, 21 Apr 2020 10:51:41 -0700</lastBuildDate>
     
-	<atom:link href="https://toddpipe.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://toddpipe.netlify.app/posts/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Covid-19</title>
-      <link>https://toddpipe.github.io/posts/covid-19/</link>
+      <link>https://toddpipe.netlify.app/posts/covid-19/</link>
       <pubDate>Wed, 01 Apr 2020 14:28:13 -0700</pubDate>
       
-      <guid>https://toddpipe.github.io/posts/covid-19/</guid>
+      <guid>https://toddpipe.netlify.app/posts/covid-19/</guid>
       <description>At MORSCO, the health and safety of our Customers, Team Members, and communities we live in and service is a top priority. As many of you have heard, the Coronavirus (COVID-19) is having an increased impact around the world. It is important that we remain pragmatic and sensible about how we can keep one another safe. MORSCO takes this responsibility seriously and asks that each of us, individually, do the same.</description>
     </item>
     

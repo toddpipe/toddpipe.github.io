@@ -2,14 +2,14 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Manufacturers on Todd Pipe &amp; Supply</title>
-    <link>https://toddpipe.github.io/manufacturers/</link>
+    <link>https://toddpipe.netlify.app/manufacturers/</link>
     <description>Recent content in Manufacturers on Todd Pipe &amp; Supply</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Todd Pipe &amp; Supply, LLC. All rights reserved.</copyright>
     <lastBuildDate>Fri, 03 Apr 2020 15:36:52 -0700</lastBuildDate>
     
-	<atom:link href="https://toddpipe.github.io/manufacturers/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://toddpipe.netlify.app/manufacturers/index.xml" rel="self" type="application/rss+xml" />
     
     
   </channel>

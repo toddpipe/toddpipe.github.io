@@ -4,31 +4,31 @@
     
     {
     "name": "Blog",
-    "permalink" : "https://toddpipe.github.io/posts/"
+    "permalink" : "https://toddpipe.netlify.app/posts/"
 }
 
     
     , {
     "name": "Manufacturers",
-    "permalink" : "https://toddpipe.github.io/manufacturers/"
+    "permalink" : "https://toddpipe.netlify.app/manufacturers/"
 }
 
     
     , {
     "name": "Resources",
-    "permalink" : "https://toddpipe.github.io/resources/"
+    "permalink" : "https://toddpipe.netlify.app/resources/"
 }
 
     
     , {
     "name": "Company",
-    "permalink" : "https://toddpipe.github.io/company/"
+    "permalink" : "https://toddpipe.netlify.app/company/"
 }
 
     
     , {
     "title": "Locations",
-    "permalink": "https://toddpipe.github.io/locations/",
+    "permalink": "https://toddpipe.netlify.app/locations/",
     "subtitle": "Serving Southern California",
     "address": "<no value>",
     "city": "<no value>",
