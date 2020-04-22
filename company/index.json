@@ -3,6 +3,12 @@
 [
     
     {
+    "name": "Thank You",
+    "permalink" : "https://toddpipe.netlify.app/contact/thank-you/"
+}
+
+    
+    , {
     "name": "Contact",
     "permalink" : "https://toddpipe.netlify.app/contact/"
 }
